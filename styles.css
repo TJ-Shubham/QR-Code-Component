@@ -13,9 +13,7 @@ main{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    
-   
+    height: 100vh; 
 }
 
 .qr-code{
@@ -50,4 +48,17 @@ img{
     margin: 15px;
     padding: 0px 10px ;
     color: hsl(220, 15%, 55%);
+}
+
+
+/* It shows only when the scren size is upt0 480px */
+.attribution{
+    display: none; 
+}
+
+@media (max-width:480px){
+    .attribution{
+        display: block;
+        margin: 10px;
+    }
 }
